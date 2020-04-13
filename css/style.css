@@ -117,6 +117,30 @@ img {
 
 /* メイン */
 
+#g_navi ul {
+	overflow: hidden;
+	padding: 0 3%;
+	width: 94%;
+  max-width: 960px;
+  list-style: none;
+}
+	#g_navi ul li {
+		position: relative;
+		float: left;
+    width: 20%;
+	}
+		#g_navi ul li a {
+      height: 16px;
+      width: 76px;
+      color: #777777;
+      font-family: YuGothic;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: -1.09px;
+      line-height: 24px;
+    }
+    
+
 .add {
   padding: 16px 0;
   width: 90%;
